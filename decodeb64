@@ -1,4 +1,6 @@
+#used for base64 decoding.
 import base64
 data = open("base64.txt", "r").read()
+#create file base64.txt with the encoding data
 decoded = base64.b64decode(data)
 print(data)
