@@ -2,5 +2,5 @@
 import base64
 data = open("base64.txt", "r").read()
 #create file base64.txt with the encoding data
-decoded = base64.b64decode(data)
+decoded = base64.b64decode(data).decode('utf-8')
 print(data)
